@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { useLanguage } from '@/context/LanguageContext';
 import { Experience } from '@/data/types';
+import { getImageUrl } from '@/lib/utils';
 
 interface ExperienceListProps {
     data: Experience[];
@@ -23,7 +24,7 @@ export default function ExperienceList({ data }: ExperienceListProps) {
                         {exp.imageUrl && (
                             <div className="relative w-24 h-12 md:w-32 md:h-16 shrink-0">
                                 <Image
-                                    src={exp.imageUrl}
+                                    src={getImageUrl(exp.imageUrl)}
                                     alt={t(exp.organization)}
                                     fill
                                     className="object-contain object-left"

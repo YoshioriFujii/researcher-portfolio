@@ -7,6 +7,7 @@ import { useLanguage } from '@/context/LanguageContext';
 import profileDataRaw from '@/data/profile.json';
 import { Profile } from '@/data/types';
 import { Menu, X, Github, GraduationCap, Mail, FileText, Linkedin } from 'lucide-react';
+import { getImageUrl } from '@/lib/utils';
 // Note: Lucide icons don't include 'X' brand icon directly usually, but we can use Twitter or similar or just text. 
 // Standard lucide has 'Twitter'. For X, we might need a custom SVG or just use Twitter for now.
 
@@ -50,7 +51,7 @@ export default function Sidebar() {
                         {profileData.imageUrl && (
                             <div className="relative w-32 h-32 mb-6 rounded-full overflow-hidden border-2 border-gray-100 mx-auto md:mx-0">
                                 <Image
-                                    src={profileData.imageUrl}
+                                    src={getImageUrl(profileData.imageUrl)}
                                     alt={t(profileData.name)}
                                     fill
                                     className="object-cover"

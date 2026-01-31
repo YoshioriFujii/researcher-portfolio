@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { useLanguage } from '@/context/LanguageContext';
 import { Award } from '@/data/types';
+import { getImageUrl } from '@/lib/utils';
 
 interface AwardListProps {
     data: Award[];
@@ -23,7 +24,7 @@ export default function AwardList({ data }: AwardListProps) {
                         {award.imageUrl && (
                             <div className="relative w-24 h-12 md:w-32 md:h-16 shrink-0">
                                 <Image
-                                    src={award.imageUrl}
+                                    src={getImageUrl(award.imageUrl)}
                                     alt={t(award.organization)}
                                     fill
                                     className="object-contain object-left"

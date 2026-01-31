@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useLanguage } from '@/context/LanguageContext';
 import { Project } from '@/data/types';
+import { getImageUrl } from '@/lib/utils';
 
 interface ProjectCardProps {
     project: Project;
@@ -19,7 +20,7 @@ export default function ProjectCard({ project, className = "" }: ProjectCardProp
             <div className="relative aspect-video w-full overflow-hidden border border-gray-100 bg-gray-50 rounded-sm">
                 {/* Using Next.js Image with unoptimized for static export if needed, but next.config.js handles unoptimized: true */}
                 <Image
-                    src={project.imageUrl}
+                    src={getImageUrl(project.imageUrl)}
                     alt={t(project.title)}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
