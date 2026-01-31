@@ -115,13 +115,22 @@ export default function Sidebar() {
                             )}
                         </div>
 
-                        <button
-                            onClick={toggleLanguage}
-                            className="text-xs font-medium uppercase tracking-wider text-gray-400 hover:text-gray-900 transition-colors"
-                            aria-label="Toggle Language"
-                        >
-                            {language === 'en' ? 'English' : '日本語'}
-                        </button>
+                        <div className="flex gap-2 text-xs font-medium uppercase tracking-wider">
+                            <button
+                                onClick={() => language !== 'en' && toggleLanguage()}
+                                className={`px-2 py-1 rounded transition-colors ${language === 'en' ? 'bg-gray-900 text-white' : 'text-gray-400 hover:text-gray-900'}`}
+                                aria-label="English"
+                            >
+                                EN
+                            </button>
+                            <button
+                                onClick={() => language !== 'ja' && toggleLanguage()}
+                                className={`px-2 py-1 rounded transition-colors ${language === 'ja' ? 'bg-gray-900 text-white' : 'text-gray-400 hover:text-gray-900'}`}
+                                aria-label="日本語"
+                            >
+                                日本語
+                            </button>
+                        </div>
                     </div>
                 </div>
             </aside>

@@ -18,7 +18,7 @@ import publicationsData from '@/data/publications.json';
 import { Publication } from '@/data/types';
 
 export default function Home() {
-    const { t } = useLanguage();
+    const { t, language } = useLanguage();
 
     return (
         <div className="max-w-4xl px-6 md:px-12 py-12 md:py-24 space-y-24">
@@ -26,7 +26,7 @@ export default function Home() {
             <section id="about">
                 <h1 className="font-serif text-4xl md:text-5xl font-bold mb-8 text-gray-900 leading-tight">
                     {/* ... existing code ... */}
-                    Hello, I'm <span className="text-gray-600">{t(profileData.name)}</span>.
+                    {language === 'en' && "Hello, I'm "}<span className="text-gray-600">{t(profileData.name)}</span>{language === 'en' && '.'}
                 </h1>
                 <div className="space-y-4 text-lg text-gray-700 font-sans leading-relaxed max-w-3xl">
                     {profileData.about.map((paragraph, index) => (
