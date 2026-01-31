@@ -1,0 +1,26 @@
+{
+    "name": {
+        "en": "Yoshiori Fujii",
+        "ja": "藤井 義織"
+    },
+    "role": {
+        "en": "Master's Student / Researcher",
+        "ja": "博士前期課程学生 / 研究者"
+    },
+    "email": "yoshiori@ai.iit.tsukuba.ac.jp",
+    "github": "https://github.com/fujiiyoshiori",
+    "scholar": "https://scholar.google.com/citations?user=_jgpE9wAAAAJ&hl=ja&authuser=1",
+    "linkedin": "https://www.linkedin.com/in/yoshiori-fujii/",
+    "cvLink": "/cv.pdf",
+    "imageUrl": "/images/profile.png",
+    "about": [
+        {
+            "en": "I am a Master's student at the University of Tsukuba, focusing on HCI and Robotics. I am passionate about developing interfaces that empower human capabilities.",
+            "ja": "筑波大学の博士前期課程学生で、HCIとロボット工学に焦点を当てています。人間の能力を拡張するインターフェースの開発に情熱を注いでいます。"
+        },
+        {
+            "en": "My research interests include wearable devices, rehabilitation robotics, and human-augmentation.",
+            "ja": "研究分野は、ウェアラブルデバイス、リハビリテーションロボット、人間拡張などです。"
+        }
+    ]
+}

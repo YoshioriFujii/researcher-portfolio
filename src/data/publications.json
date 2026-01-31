@@ -1,0 +1,22 @@
+[
+    {
+        "id": "pub_nature_2026",
+        "title": "3D pose estimation for scalable remote gait kinematics assessment",
+        "authors": "S. Natraj, T. Messmer, Y. Fujii, K. Suzuki, R. Riener, I. Eriks-Hoogland, and D. Paez-Granados",
+        "venue": "npj Digital Medicine, vol. 9, art. no. 37",
+        "year": 2026,
+        "doi": "10.1038/s41746-025-02211-y",
+        "pdfLink": "https://www.nature.com/articles/s41746-025-02211-y",
+        "category": "journal"
+    },
+    {
+        "id": "pub_icorr_2025",
+        "title": "Multi-Channel EMS-Based Interface for Perceptual Sharing of Joint Stiffness in Telerehabilitation",
+        "authors": "Y. Fujii, Y. Suzuki, M. Hassan, and K. Suzuki",
+        "venue": "2025 IEEE International Conference on Rehabilitation Robotics (ICORR) (Rehabweek), Chicago, USA",
+        "year": 2025,
+        "doi": "10.1109/11063154",
+        "pdfLink": "https://ieeexplore.ieee.org/document/11063154",
+        "category": "conference"
+    }
+]

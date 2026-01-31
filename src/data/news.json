@@ -1,0 +1,33 @@
+[
+    {
+        "date": "2025.05.12",
+        "title": {
+            "en": "Presented paper at ICORR 2025 (Rehabweek) in Chicago, USA.",
+            "ja": "米国シカゴで開催されたRehabweekの一部であるICORR 2025にて登壇・発表を行いました。"
+        },
+        "link": "https://ieeexplore.ieee.org/document/11063154"
+    },
+    {
+        "date": "2025.02.21",
+        "title": {
+            "en": "Spoke at TSUKUBA CONNÉCT #73 'Go Global, Connecting Ibaraki to the World'. Topic: 'Challenge to the World starting from CYBATHLON'.",
+            "ja": "TSUKUBA CONNÉCT #73『Go Global, 世界と繋がる茨城』にて「CYBATHLONからはじまる世界への挑戦」をテーマに登壇しました。"
+        },
+        "link": "https://www.emp.tsukuba.ac.jp/8853"
+    },
+    {
+        "date": "2024.12.08",
+        "title": {
+            "en": "Spoke at Hitachi LEAPDAY 2024. Topic: 'CYBATHLON × CYBERDYNE'.",
+            "ja": "Hitachi LEAPDAY 2024にて「CYBATHLON × CYBERDYNE」をテーマに登壇しました。"
+        },
+        "link": "https://www.emp.tsukuba.ac.jp/8856"
+    },
+    {
+        "date": "2024.04.01",
+        "title": {
+            "en": "Started Master's at University of Tsukuba.",
+            "ja": "筑波大学で修士課程を開始しました。"
+        }
+    }
+]

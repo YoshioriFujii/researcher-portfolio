@@ -1,0 +1,56 @@
+[
+    {
+        "id": "telerehabilitation_ems",
+        "title": {
+            "en": "Multi-channel Electrical Muscle Stimulation Interface for Tele-rehabilitation",
+            "ja": "遠隔リハビリのための複数チャネル筋電気刺激インタフェース"
+        },
+        "description": {
+            "en": "Developing a novel interface that enables physical therapists to remotely deliver precise muscle stimulation to patients, bridging the physical gap in rehabilitation.",
+            "ja": "理学療法士が患者に正確な筋電気刺激を遠隔で提供できる新しいインタフェースを開発し、リハビリテーションにおける物理的な距離を埋めます。"
+        },
+        "imageUrl": "/images/telerehabilitation.png",
+        "tags": [
+            "HCI",
+            "Rehabilitation",
+            "Robotics"
+        ],
+        "link": "#"
+    },
+    {
+        "id": "virtual_spectators",
+        "title": {
+            "en": "Virtual Sports Spectators Projected in Large-Scale Space",
+            "ja": "大規模空間に投影した仮想スポーツ観客"
+        },
+        "description": {
+            "en": "Investigated the impact of virtual spectators on sports motivation. This system projects spectators into the real world, enabling experiments in complex and intense sports where wearing HMDs is difficult.",
+            "ja": "仮想観客がスポーツのモチベーションに与える影響を調査しました。HMDの着用が困難な複雑で激しいスポーツにおいても、実空間への投影により実験を可能にしました。"
+        },
+        "imageUrl": "/images/virtual_spectators.png",
+        "tags": [
+            "VR/AR",
+            "Sports",
+            "HCI"
+        ],
+        "link": "#"
+    },
+    {
+        "id": "robotic_bed_biofeedback",
+        "title": {
+            "en": "Biofeedback System using Robotic Bed for Stress Reduction",
+            "ja": "ストレス軽減を目的としたロボットベッドを用いたバイオフィードバックシステム"
+        },
+        "description": {
+            "en": "A system that utilizes a robotic bed to provide biofeedback, aiming to reduce stress through physical interaction and relaxation.",
+            "ja": "ロボットベッドを用いてバイオフィードバックを提供し、身体的な相互作用とリラクゼーションを通じてストレス軽減を目指すシステム。"
+        },
+        "imageUrl": "/images/robotic_bed.png",
+        "tags": [
+            "Robotics",
+            "Healthcare",
+            "HCI"
+        ],
+        "link": "#"
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "id": "eth_fellowship_award",
+        "title": {
+            "en": "Robotics Student Fellowship",
+            "ja": "Robotics Student Fellowship"
+        },
+        "organization": {
+            "en": "ETH Zurich / Sensory-Motor Systems Lab",
+            "ja": "ETH Zurich / Sensory-Motor Systems Lab"
+        },
+        "date": "2025.06",
+        "imageUrl": "/images/eth.png"
+    },
+    {
+        "id": "mext_tobitate",
+        "title": {
+            "en": "Tobitate! (Leap for Tomorrow) Study Abroad Initiative",
+            "ja": "文部科学省 トビタテ！留学JAPAN 日本代表プログラム (第16期) 奨学生"
+        },
+        "organization": {
+            "en": "MEXT (Ministry of Education, Culture, Sports, Science and Technology)",
+            "ja": "文部科学省"
+        },
+        "date": "2024.06",
+        "imageUrl": "/images/mext.png"
+    },
+    {
+        "id": "tsukuba_esaki",
+        "title": {
+            "en": "Tsukuba Alumni Association Esaki Award",
+            "ja": "筑波大学校友会 江崎賞"
+        },
+        "organization": {
+            "en": "University of Tsukuba",
+            "ja": "筑波大学"
+        },
+        "date": "2024.03",
+        "imageUrl": "/images/tsukuba.png"
+    },
+    {
+        "id": "jstarx_finland",
+        "title": {
+            "en": "J-StarX Finland Course",
+            "ja": "経済産業省主催「J-StarX」 フィンランドコース"
+        },
+        "organization": {
+            "en": "METI (Ministry of Economy, Trade and Industry)",
+            "ja": "経済産業省"
+        },
+        "date": "2023.11",
+        "imageUrl": "/images/jstarx.png"
+    },
+    {
+        "id": "jetro_silicon_valley",
+        "title": {
+            "en": "Tech-focused Science Student Silicon Valley Dispatch Program",
+            "ja": "テック系理系学生人材シリコンバレー派遣プログラム"
+        },
+        "organization": {
+            "en": "JETRO (Japan External Trade Organization)",
+            "ja": "日本貿易振興機構 (ジェトロ)"
+        },
+        "date": "2023.09",
+        "imageUrl": "/images/jetro.png"
+    }
+]

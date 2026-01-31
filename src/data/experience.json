@@ -1,0 +1,41 @@
+[
+    {
+        "id": "tsukuba_phd",
+        "role": {
+            "en": "Master's Student / Researcher",
+            "ja": "博士前期課程 / 研究員"
+        },
+        "organization": {
+            "en": "University of Tsukuba, Empowerment Informatics Program / Artificial Intelligence Laboratory (Prof. Kenji Suzuki)",
+            "ja": "筑波大学 エンパワーメント情報学プログラム / 人工知能研究室 (鈴木健嗣教授)"
+        },
+        "period": "2024.04 - Present",
+        "imageUrl": "/images/tsukuba.png"
+    },
+    {
+        "id": "eth_fellowship",
+        "role": {
+            "en": "Robotics Student Fellow",
+            "ja": "Robotics Student Fellow"
+        },
+        "organization": {
+            "en": "ETH Zurich, Sensory-Motor Systems Lab",
+            "ja": "ETH Zurich, Sensory-Motor Systems Lab"
+        },
+        "period": "2025.06 - 2025.08",
+        "imageUrl": "/images/eth.png"
+    },
+    {
+        "id": "eth_visiting",
+        "role": {
+            "en": "Visiting Student",
+            "ja": "Visiting Student"
+        },
+        "organization": {
+            "en": "ETH Zurich, Spinal Cord Injury & Artificial Intelligence Lab / Swiss Paraplegic Research",
+            "ja": "ETH Zurich, Spinal Cord Injury & Artificial Intelligence Lab / Swiss Paraplegic Research"
+        },
+        "period": "2024.09 - 2025.02",
+        "imageUrl": "/images/eth.png"
+    }
+]
